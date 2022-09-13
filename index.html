@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assurance Al Chamal</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+	<div class="header">
+		<header>
+			<div class="inheader">
+				<img class="logo" src="photos/logo-ass-al-chamal.png" alt="logo">
+			<nav>
+				<ul>
+					<div class="li">
+						<li><a href="#">Accueil</a></li>
+						<li><a href="#">Nos produits</a></li>
+						<li><a href="#">Pourquoi AAC ? </a></li>
+						<li><a href="#">Faire un Devis</a></li>
+						<li><a href="#">Contactez-nous</a></li>
+				</div>
+				<div class="animation start-home"></div>
+				</ul>
+			</nav>
+		</div>
+		</header>
+	</div>
+
+	<section>
+		<div class="photos">
+			<img class="mySlides" src="photos/covid.png" alt="covid">
+			<img class="mySlides" src="photos/eid.png" alt="eid">
+			<img class="mySlides" src="photos/waterd.png" alt="waterday">
+			<img class="mySlides" src="photos/health.png" alt="healthday">
+			<img class="mySlides" src="photos/womensday.png" alt="womensday">
+			<img class="mySlides" src="photos/habi.png" alt="assurance habitaion">
+		</div>
+		<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+	</section>
+	<section>
+		<div class="devis">
+  			<form action="/action_page.php" class="container">
+    			<h1>Login</h1>
+    			<label for="nom"><b>Nom Complet</b></label>
+    			<input type="text" placeholder="Entrer nom de votre Société" name="email" required>
+    			<label for="email"><b>Email</b></label>
+    			<input type="text" placeholder="Entrer Email" name="email" required>
+    			<label for="tel"><b>Téléphone</b></label>
+    			<input type="tel" placeholder="Entrer votre numéro du téléphone" name="tel" required>
+    			<p><b>Selectionez votre type d'assurance</b></p>
+          					<select name="role" class="form-control" >
+            					<option disabled selected value>-type d'assurance-</option>
+            					<option value="1">Auto & Moto</option>
+            					<option value="2">Epargne</option>
+           					 	<option value="3">Habitation</option>
+           					 	<option value="4">Sant/Prévoyance</option>
+            					<option value="5">Autres</option>
+          					</select>
+    			<button type="submit" class="btn" id="submit">Envoyer</button>
+ 			</form>
+		</div>
+	</section>
+	<footer>
+		
+	</footer>
+</body>
+
+<footer>
+		<div class="footer-content">
+            <h5> ASSURANCES AL CHAMAL </h5>
+            <p> Chers clients, on tient à vous disposez que si vous avez des questions sut toutes info, 
+                n'hésitez pas à nous questionner sur notre Gmail que vous touverez là dessous ! 
+            </p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+       <div class="wrapper">
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-google"></i>
+            </div>
+            <span>Gmail</span>
+         </div>
+         <div class="button">
+            <div class="icon">
+              <a> <i  href="https://www.instagram.com/assurancealchamal/" class="fab fa-instagram"></i></a>
+            </div>
+            <span>Instagram</span>
+         </div>
+        </div>
+
+        <div class="footer-bottom" 
+        <p> copyright &copy;2022 designed.by INTOUCH <span></span></p>
+
+
+  
+    </div>
+	</footer>
+
+
+</html>

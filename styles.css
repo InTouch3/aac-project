@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+body {
+    border-bottom: 1px solid gray;
+      background-image: linear-gradient(to right top, #34495e, #495769, #5d6574, #707480, #82838b, #929298, #a2a2a5, #b2b2b2, #c5c5c5, #d8d8d8, #ebebeb, #ffffff);
+
+}
+
+
+
+header{
+  height: 150px;
+  width: 100%;
+   
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px ;
+  align-items: center;
+}
+.inheader{
+  margin-top: 12px;
+}
+.logo{
+  padding-top: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  cursor: pointer;
+  float: left;
+  width: 70px;
+  height: 80px;
+  margin: 0 auto auto 10px;
+}
+nav{
+  background-color: #34495e;
+  margin: -20px auto 10px 0;
+  width: 100%;
+  height: 80px;
+  border-radius: 6px;
+  font-size: 0;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+nav li{
+  margin: 10px 30px auto auto;
+  display: inline-block;
+  height:100% ;
+  font-family: inherit;
+}
+nav li a{
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  padding: 15px;
+  transition: all 0.3s ease 0s;
+}
+nav li a:hover {
+  background-color: #0088a9;
+}
+.li{
+  float: right;
+}
+
+
+
+.photos{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mySlides {
+  margin-top: 300px;
+  display:inherit;
+  max-width: 100%;
+  width: 600px;
+  margin: auto 50px;
+}
+
+
+
+form {
+  display: block;
+  width: 80%;
+  padding: 0.5rem 0.25rem 0.5rem 1.25rem;
+  color: white;
+  background-color:rgba(27, 27, 50, 0.75) ;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-bottom: 80px;
+}
+.btn{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: green;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  width: 400px;
+  margin-top: 20px;
+}
+.devis{
+  margin-top: 300px;
+}
+label {
+  display: flex ;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.6rem;
+}
+
+
+footer{
+  position: absolute;
+  left: 0;
+  right: 0cm;
+  background-color: darkslategrey;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+color: aliceblue;
+ 
+}
+
+.footer-content
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem ;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: royalblue;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: royalblue;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+
+.footer-bottom{
+  background: darkslategrey;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+
+}
+.footer-bottom p{
+font-size: 8px;
+word-spacing:2px;
+text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+text-transform: uppercase;
+opacity: .4;
+font: weight 200; 
+}
